@@ -1,3 +1,6 @@
+<link rel="stylesheet" href=" {{ asset('assets/css/components/footer.css') }}">
+
+
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
