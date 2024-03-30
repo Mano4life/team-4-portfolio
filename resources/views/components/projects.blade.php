@@ -87,6 +87,7 @@
         .card .character {
           width: 70%;
           opacity: 0;
+          top: 40px;
           position: absolute;
           z-index: -1;
           transition: all 0.4s;
@@ -116,7 +117,7 @@
 
         .card:hover .character {
           opacity: 1;
-          transform: translate3d(0%, -10%, -100px);
+          transform: translate3d(0%, -50%, -100px);
         }
 
         .two {
@@ -133,8 +134,7 @@
 
         .two .ri-github-fill:hover,
         .ri-image-fill:hover {
-          box-shadow: 0 0px 50px grey;
-          background-color: rgba(255, 255, 255, 0.316);
+          box-shadow: 0 0px 70px #7c3aed;;
         }
 
         .two .ri-github-fill {
@@ -142,6 +142,7 @@
           color: white;
           border-radius: 100%;
           transition: 0.4s;
+          background-color: #7c3aed82;
         }
 
         .two .ri-image-fill {
@@ -149,6 +150,7 @@
           font-size: 100px;
           border-radius: 20%;
           transition: 0.4s;
+          background-color: #7c3aed82;
         }
 
         .porto{
@@ -156,6 +158,10 @@
           flex-direction: column;
           align-items: center;
           height: fit-content;
+        }
+        .card-div{
+          display: flex;
+          gap: 30px ;
         }
       </style>
 
@@ -165,6 +171,8 @@
           <h2>Our Portfolio</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
+
+        <div class="card-div">
 
           <div class="card">
             <div class="wrapper">
@@ -178,6 +186,34 @@
               <a href=""><i class="ri-image-fill"></i></a>
             </div>
           </div>
+
+          <div class="card">
+            <div class="wrapper">
+              <img class="cover-img" src="assets/img/portfolio/image.jpg" alt="cover" />
+            </div>
+
+            <h1 class="title">Portfolio Project</h1>
+
+            <div class="character two">
+              <a href="https://github.com/Mano4life/team-4-portfolio"><i class="ri-github-fill"></i></a>
+              <a href=""><i class="ri-image-fill"></i></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="wrapper">
+              <img class="cover-img" src="assets/img/portfolio/image.jpg" alt="cover" />
+            </div>
+
+            <h1 class="title">Portfolio Project</h1>
+
+            <div class="character two">
+              <a href="https://github.com/Mano4life/team-4-portfolio"><i class="ri-github-fill"></i></a>
+              <a href=""><i class="ri-image-fill"></i></a>
+            </div>
+          </div>
+
+        </div>
 
       </div>
 
