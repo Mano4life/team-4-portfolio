@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="../../css/components/navbar.css">
-<link rel="stylesheet" href=" {{ asset('css/components/navbar.css') }}">
+<link rel="stylesheet" href=" {{ asset('assets/css/components/navbar.css') }}">
 
 
 <!-- ======= Header ======= -->
