@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="{{ asset('assets/css/components/about.css') }}">
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
