@@ -31,21 +31,22 @@
 
 <body>
 
-    {{-- <x-navbar /> --}}
-    {{-- <x-hero /> --}}
+    <x-navbar />
+    <x-hero />
 
   <main id="main">
 
     <x-about />
     <x-counts />
-    {{-- <x-services /> --}}
-    {{-- <x-projects /> --}}
-    {{-- <x-team /> --}}
+    <x-services />
+    <x-projects />
+    <x-team />
     <x-contact />
 
-  </main><!-- End #main -->
+  </main>
+  <!-- End #main -->
   
-    {{-- <x-footer /> --}}
+    <x-footer />
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
