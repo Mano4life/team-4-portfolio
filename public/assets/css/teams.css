@@ -1,0 +1,126 @@
+.team {
+    background: #fff;
+    padding: 60px 0 30px 0;
+}
+
+.team .section-title h2 {
+  
+    color: var(--accent-dark);
+}
+
+.team .section-title p {
+  
+    color: var(--accent-light)
+}
+
+.team .member {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.team .member .pic {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.team .member img {
+    transition: all ease-in-out 0.4s;
+    object-fit: cover;
+}
+.team .img-fluid{
+    width: 90%;
+    height: 330px;
+}
+.team .member:hover img {
+    transform: scale(1.1);
+}
+
+.team .member .member-info {
+    position: absolute;
+    bottom: -48px;
+    left: 20px;
+    right: 20px;
+    background: linear-gradient(
+        360deg,
+        var(--accent-dark) 0%,
+        var(--accent-light) 45%,
+        var(--accent-tint) 100%
+    );
+    padding: 15px 0;
+    border-radius: 4px;
+}
+
+.team .member h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.team .member h4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #fff;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+
+.team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.team .member .social {
+    margin-top: 15px;
+}
+
+.team .member .social a {
+    transition: color 0.3s;
+    color: #fff;
+}
+
+.team .member .social a:hover {
+    color: var( --accent-tint)
+}
+
+.team .member .social i {
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+@media (max-width: 992px) {
+    .team .member {
+        margin-bottom: 100px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq {
+    padding-bottom: 30px;
+}
+
+.faq .faq-item {
+    margin-bottom: 40px;
+}
+
+.faq .faq-item h4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1f3548;
+}
