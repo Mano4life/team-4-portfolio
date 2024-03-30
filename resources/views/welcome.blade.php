@@ -43,7 +43,8 @@
     <x-team />
     <x-contact />
 
-  </main><!-- End #main -->
+  </main>
+  <!-- End #main -->
   
     <x-footer />
 
