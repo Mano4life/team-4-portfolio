@@ -1,4 +1,6 @@
-    <!-- ======= Contact Us Section ======= -->
+<link rel="stylesheet" href="{{ asset('assets/css/components/contact.css') }}">
+
+<!-- ======= Contact Us Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
