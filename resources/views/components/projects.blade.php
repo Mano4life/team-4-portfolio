@@ -65,9 +65,9 @@
         }
 
         .wrapper::after {
-          bottom: 0;
+          top: 0;
           opacity: 0;
-          background-image: linear-gradient(to bottom,
+          background-image: linear-gradient(to top,
               transparent 46%,
               rgb(12, 13, 19, 0.5) 68%,
               rgb(12, 13, 19) 97%);
