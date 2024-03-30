@@ -80,7 +80,7 @@
     left: -260px;
     width: 260px;
     padding-top: 18px;
-    background: #221638;
+    background: var(--accent-dark);
     transition: 0.4s;
 }
 
@@ -93,7 +93,7 @@
 .mobile-nav a {
     display: block;
     position: relative;
-    color: #e3f0fc;
+    color: #fff;
     padding: 10px 20px;
     font-weight: 500;
 }
@@ -101,7 +101,7 @@
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-    color: #7c3aed;
+    color: var(--accent-tint);
     text-decoration: none;
 }
 
@@ -146,7 +146,7 @@
 }
 
 .mobile-nav-toggle i {
-    color: #5c768d;
+    color: var(--accent-dark);
 }
 
 .mobile-nav-overly {
@@ -156,7 +156,7 @@
     top: 0;
     left: 0;
     position: fixed;
-    background: rgba(43, 31, 72, 0.7);
+    background: var(--accent-transparent);
     overflow: hidden;
     display: none;
 }
