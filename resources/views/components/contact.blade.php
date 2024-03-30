@@ -14,7 +14,7 @@
             <div class="info-box">
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
-              <p>Masr om ELDONIA, Giza Pyramids</p>
+              <p>Egypt, Cairo</p>
             </div>
           </div>
 
@@ -22,7 +22,7 @@
             <div class="info-box">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>info@team4portfolio.com<br>contact@team4portfolio.com</p>
+              <p>info@t.four.com<br>contact@t.four.com</p>
             </div>
           </div>
 
