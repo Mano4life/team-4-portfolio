@@ -14,6 +14,7 @@
     --accent-light: #a653e2; /* Light accent */
     --accent-tint: #d9b3f2; /* Very light accent (tint) */
     --accent-transparent: rgba(26, 16, 51, 0.5); /* Transparent accent */
+    --accent-lightbackground: rgb(76 6 251 / 8%); /* Background light colour */
 }
 
 body {
