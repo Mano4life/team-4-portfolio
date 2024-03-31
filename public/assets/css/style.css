@@ -79,7 +79,7 @@ section {
 }
 
 .section-bg {
-    background-color: #f5f9fc;
+    background-color: var(--accent-lightbackground);
 }
 
 .section-title {
