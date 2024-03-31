@@ -11,7 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
+        Schema::create('contact', function($table){
+            $table->id();
+            $table->string('sender_name');
+            $table->string('sender_email');
+            $table->text('message_subject');
+            $table->text('message_body');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -19,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('contact');
     }
 };

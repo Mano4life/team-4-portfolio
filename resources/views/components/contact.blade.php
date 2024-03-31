@@ -1,4 +1,6 @@
-    <!-- ======= Contact Us Section ======= -->
+<link rel="stylesheet" href="{{ asset('assets/css/components/contact.css') }}">
+
+<!-- ======= Contact Us Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
@@ -12,7 +14,7 @@
             <div class="info-box">
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <p>Egypt, Cairo</p>
             </div>
           </div>
 
@@ -20,7 +22,7 @@
             <div class="info-box">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>info@example.com<br>contact@example.com</p>
+              <p>info@t.four.com<br>contact@t.four.com</p>
             </div>
           </div>
 
@@ -28,12 +30,13 @@
             <div class="info-box ">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+              <p>+201234567890<br>+201234567890</p>
             </div>
           </div>
 
           <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="{{ route('contact.store') }}" method="post" role="form" class="php-email-form">
+              @csrf
               <div class="form-row">
                 <div class="col-lg-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />

@@ -1,40 +1,42 @@
-  <!-- ======= Hero Section ======= -->
+<link rel="stylesheet" href=" {{ asset('assets/css/components/hero.css') }}">
+
+<!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container">
-      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
 
         <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url('assets/img/slide/slide-1.jpg');">
+          <div class="carousel-item active" style="background-image: url('assets/img/slide/team.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animated fadeInDown">Welcome to <span>Mamba</span></h2>
-                <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animated fadeInDown">We Build the Web You Dream Of</h2>
+                <p class="animated fadeInUp">Our passionate team of web developers creates beautiful, functional, and user-friendly websites that drive results.</p>
                 <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
               </div>
             </div>
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-2.jpg');">
+          <div class="carousel-item" style="background-image: url('assets/img/slide/code.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animated fadeInDown">Lorem Ipsum Dolor</h2>
-                <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animated fadeInDown">Masters Of:</h2>
+                <p class="animated fadeInUp">HTML5, CSS3, JS, BOOTSTRAP, TAILWIND, REACT, PHP, LARAVEL</p>
                 <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
               </div>
             </div>
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-3.jpg');">
+          <div class="carousel-item" style="background-image: url('assets/img/slide/alkhabeer.png');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animated fadeInDown">Sequi ea ut et est quaerat</h2>
-                <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animated fadeInDown">From Design to Development, We Deliver</h2>
+                <p class="animated fadeInUp">We handle every aspect of web development, from crafting stunning UI/UX designs to building powerful backends.</p>
                 <a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>
               </div>
             </div>
