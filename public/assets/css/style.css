@@ -8,6 +8,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root {
+    --accent-dark: #5029ab; /* Dark accent */
+    --accent: #7c3aed; /* Medium accent */
+    --accent-light: #a653e2; /* Light accent */
+    --accent-tint: #d9b3f2; /* Very light accent (tint) */
+    --accent-transparent: rgba(26, 16, 51, 0.5); /* Transparent accent */
+    --accent-lightbackground: rgb(76 6 251 / 8%); /* Background light colour */
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444;
@@ -224,7 +233,7 @@ section {
 }
 
 .section-bg {
-    background-color: #f5f9fc;
+    background-color: var(--accent-lightbackground);
 }
 
 .section-title {

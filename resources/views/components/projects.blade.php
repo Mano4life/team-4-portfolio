@@ -23,8 +23,21 @@
             <h1 class="title">Portfolio Project</h1>
 
             <div class="character two">
-              <a href="https://github.com/Mano4life/team-4-portfolio"><i class="ri-github-fill"></i></a>
-              <a href=""><i class="ri-image-fill"></i></a>
+              <a href="https://github.com/Mano4life/team-4-portfolio"><i class="ri-github-fill project-icon"></i></a>
+              <a href=""><i class="ri-image-fill project-icon"></i></a>
+            </div>
+          </div>
+      
+          <div class="card">
+            <div class="wrapper">
+              <img class="cover-img" src="assets/img/portfolio/image.jpg" alt="cover" />
+            </div>
+
+            <h1 class="title">Portfolio Project</h1>
+
+            <div class="character two">
+              <a href="https://github.com/Mano4life/team-4-portfolio"><i class="ri-github-fill project-icon"></i></a>
+              <a href=""><i class="ri-image-fill project-icon"></i></a>
             </div>
           </div>
 
@@ -36,21 +49,8 @@
             <h1 class="title">Portfolio Project</h1>
 
             <div class="character two">
-              <a href="https://github.com/Mano4life/team-4-portfolio"><i class="ri-github-fill"></i></a>
-              <a href=""><i class="ri-image-fill"></i></a>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="wrapper">
-              <img class="cover-img" src="assets/img/portfolio/image.jpg" alt="cover" />
-            </div>
-
-            <h1 class="title">Portfolio Project</h1>
-
-            <div class="character two">
-              <a href="https://github.com/Mano4life/team-4-portfolio"><i class="ri-github-fill"></i></a>
-              <a href=""><i class="ri-image-fill"></i></a>
+              <a href="https://github.com/Mano4life/team-4-portfolio"><i class="ri-github-fill project-icon"></i></a>
+              <a href=""><i class="ri-image-fill project-icon"></i></a>
             </div>
           </div>
 
