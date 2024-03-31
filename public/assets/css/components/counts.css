@@ -4,6 +4,7 @@
 --------------------------------------------------------------*/
 .counts {
     padding-bottom: 30px;
+    background-color: var(--accent-lightbackground);
 }
 
 .counts .count-box {
