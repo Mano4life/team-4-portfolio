@@ -44,7 +44,12 @@
     padding: 15px 0;
     border-radius: 4px;
 }
-
+.team .row{
+    margin-left: 0;
+    justify-content: center ;
+    width: 100%;
+    flex-wrap: nowrap;
+}
 .team .member h4 {
     font-weight: 700;
     margin-bottom: 10px;

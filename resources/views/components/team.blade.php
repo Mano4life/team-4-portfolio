@@ -58,6 +58,22 @@
             </div>
           </div>
 
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="pic"><img src="assets/img/team/mohamed.jfif" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Mohamed</h4>
+                <span>Web Develpoer</span>
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="pic"><img src="assets/img/team/zeyad.png" class="img-fluid" alt=""></div>
