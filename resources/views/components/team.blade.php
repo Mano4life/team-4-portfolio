@@ -1,5 +1,5 @@
     <!-- ======= Our Team Section ======= -->
-    <link rel="stylesheet" href="assets/css/teams.css">
+    <link rel="stylesheet" href="assets/css/components/teams.css">
     <section id="team" class="team">
        <div class="container">
 
