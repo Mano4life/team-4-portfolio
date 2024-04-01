@@ -4,11 +4,8 @@
 }
 
 .team .section-title h2 {
-  
     color: var(--accent-dark);
 }
-
-
 
 .team .member {
     text-align: center;
@@ -23,18 +20,17 @@
 
 .team .member img {
     transition: all ease-in-out 0.4s;
-   object-fit: cover;   
-      /* height: 330px; */
-      object-position:top ;
+    object-fit: cover;
+    /* height: 330px; */
+    object-position: top;
 
-      width: 100%; 
-
+    width: 100%;
 }
-.team .pic{
+.team .pic {
     width: 100%;
     aspect-ratio: 1;
 }
-.team .member:hover img  {
+.team .member:hover img {
     transform: scale(1.05);
 }
 
@@ -44,7 +40,7 @@
     left: 20px;
     right: 20px;
     background: var(--accent-transparent);
-  
+
     padding: 15px 0;
     border-radius: 4px;
 }
@@ -75,8 +71,8 @@
     display: block;
     font-size: 13px;
     color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
 }
 
 .team .member .social {
@@ -89,25 +85,28 @@
 }
 
 .team .member .social a:hover {
-    color: var( --accent-tint);
+    color: var(--accent-tint);
 }
-.team .member .social a i:hover  {
-    transform: scale(1.3) ;
+.team .member .social a i:hover {
+    transform: scale(1.3);
     margin-top: 120px;
 }
 
-
 .team .member .social i {
-    font-size: 16px;    
-   scale: 1.2;
+    font-size: 18px;
+    scale: 1.2;
     margin: 0 2px;
+    transition: 0.3s ease-in-out;
+}
+
+.team .member .social i:hover {
+    font-size: 22px;
 }
 
 @media (max-width: 992px) {
     .team .member {
         margin-bottom: 100px;
     }
-  
 }
 
 /*--------------------------------------------------------------

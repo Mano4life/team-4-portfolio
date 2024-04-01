@@ -1,5 +1,5 @@
     <!-- ======= Services Section ======= -->
-    <link rel="stylesheet" href="assets/css/services.css">
+    <link rel="stylesheet" href="assets/css/components/services.css">
 
     <section id="services" class="services">
       <div class="container">
